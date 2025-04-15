@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DE6D957C-6C82-4C66-A6AF-BD6C673CDAE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YediDoga_Server.Application", "src\YediDoga_Server.Application\YediDoga_Server.Application.csproj", "{5B1B19B4-ACC5-31E4-DBED-25972CBCDA10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YediDoga_Server.Domain", "src\YediDoga_Server.Domain\YediDoga_Server.Domain.csproj", "{BFE1DF78-E862-7698-9A3B-4CF0AA076718}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YediDoga_Server.Infrastructure", "src\YediDoga_Server.Infrastructure\YediDoga_Server.Infrastructure.csproj", "{C0AFF75D-010B-0B27-E021-5E39F5C1A8AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YediDoga_Server.WebAPI", "src\YediDoga_Server.WebAPI\YediDoga_Server.WebAPI.csproj", "{051A2199-ED48-AAB6-8DD5-03B8FADF48AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B1B19B4-ACC5-31E4-DBED-25972CBCDA10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B1B19B4-ACC5-31E4-DBED-25972CBCDA10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B1B19B4-ACC5-31E4-DBED-25972CBCDA10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B1B19B4-ACC5-31E4-DBED-25972CBCDA10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFE1DF78-E862-7698-9A3B-4CF0AA076718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFE1DF78-E862-7698-9A3B-4CF0AA076718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFE1DF78-E862-7698-9A3B-4CF0AA076718}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFE1DF78-E862-7698-9A3B-4CF0AA076718}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0AFF75D-010B-0B27-E021-5E39F5C1A8AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0AFF75D-010B-0B27-E021-5E39F5C1A8AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0AFF75D-010B-0B27-E021-5E39F5C1A8AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0AFF75D-010B-0B27-E021-5E39F5C1A8AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{051A2199-ED48-AAB6-8DD5-03B8FADF48AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{051A2199-ED48-AAB6-8DD5-03B8FADF48AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{051A2199-ED48-AAB6-8DD5-03B8FADF48AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{051A2199-ED48-AAB6-8DD5-03B8FADF48AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5B1B19B4-ACC5-31E4-DBED-25972CBCDA10} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{BFE1DF78-E862-7698-9A3B-4CF0AA076718} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{C0AFF75D-010B-0B27-E021-5E39F5C1A8AD} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{051A2199-ED48-AAB6-8DD5-03B8FADF48AE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55C1C958-EC21-4CC6-823A-569C731DAD53}
+	EndGlobalSection
+EndGlobal
