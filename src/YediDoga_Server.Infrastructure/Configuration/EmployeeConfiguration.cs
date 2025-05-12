@@ -26,3 +26,4 @@ internal sealed class EmployeeConfiguration : IEntityTypeConfiguration<Employee>
         builder.Property(i => i.Salary).HasColumnType("money");
     }
 }
+

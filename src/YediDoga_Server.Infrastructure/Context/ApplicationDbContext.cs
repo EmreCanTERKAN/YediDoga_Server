@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using YediDoga_Server.Domain.Abstractions;
 using YediDoga_Server.Domain.Employees;
+using YediDoga_Server.Domain.Honeys;
 
 namespace YediDoga_Server.Infrastructure.Context;
 internal sealed class ApplicationDbContext : DbContext, IUnitOfWork
 {
-    public ApplicationDbContext(DbContextOptions options) : base(options)
+    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
     {
     }
 
     public DbSet<Employee> Employees { get; set; }
+    public DbSet<Honey> Honeys { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
