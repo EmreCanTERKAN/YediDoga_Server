@@ -9,7 +9,7 @@ namespace YediDoga_Server.Application.Honeys;
 public sealed record HoneyCreateCommand(
     string Name,
     string Category,
-    string Price,
+    decimal Price,
     string Type) : IRequest<Result<string>>;
 
 public sealed class HoneyCreateCommandValidator : AbstractValidator<HoneyCreateCommand>

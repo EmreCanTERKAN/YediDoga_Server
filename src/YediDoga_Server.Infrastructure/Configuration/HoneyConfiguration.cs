@@ -8,7 +8,7 @@ internal sealed class HoneyConfiguration : IEntityTypeConfiguration<Honey>
 {
     public void Configure(EntityTypeBuilder<Honey> builder)
     {
-        builder.Property(i => i.Price).HasColumnType("money");
+        builder.Property(i => i.Price).HasColumnType("numeric(12,2)");
     }
 }
 

@@ -8,7 +8,7 @@ public sealed class HoneyGetAllQueryResponse : EntityDto
 {
     public string Name { get; set; } = default!;
     public string Category { get; set; } = default!;
-    public string Price { get; set; } = default!;
+    public decimal Price { get; set; } = default!;
     public string Type { get; set; } = default!;
 }
 
